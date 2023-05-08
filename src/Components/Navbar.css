@@ -1,0 +1,15 @@
+ul {
+    display: flex;
+    justify-content: space-around;
+    height: 25px;
+}
+
+li {
+    list-style-type: none;
+    color:white;
+    cursor: pointer;
+}
+
+li:hover {
+    border-bottom: 3px green solid;
+}
